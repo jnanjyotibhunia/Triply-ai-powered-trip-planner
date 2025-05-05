@@ -14,3 +14,36 @@ Responsive Design: Styled with Tailwind CSS to ensure compatibility across vario
 Real-Time Data Storage: Store and retrieve user data efficiently using Firebase Firestore.
 
 Modern Frontend Framework: Developed with React and Vite for optimal performance and scalability.
+---
+##🛠️ Tech Stack
+Frontend: React, Vite, Tailwind CSS
+Backend Services: Firebase (Authentication, Firestore)
+AI Integration: Gemini API
+APIs: Google Places API
+Authentication: Firebase Authentication with Google Sign-In
+---
+##🚀 Getting Started
+Prerequisites
+Node.js (v14 or later)
+npm or yarn
+
+Installation
+ 1.Clone the Repository
+   git clone https://github.com/jnanjyotibhunia/Triply-ai-powered-trip-planner.git
+   cd Triply-ai-powered-trip-planner
+---
+## 📁 Project Structure
+Triply-ai-powered-trip-planner/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+---
