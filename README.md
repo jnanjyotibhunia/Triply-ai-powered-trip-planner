@@ -27,9 +27,9 @@ Triply is an intelligent travel planning application that leverages AI to craft 
 - Node.js (v14 or later)
 - npm or yarn
 
--Installation
+Installation
 ---
- -1.Clone the Repository
+ 1.Clone the Repository
  --
   - git clone https://github.com/jnanjyotibhunia/Triply-ai-powered-trip-planner.git
   - cd Triply-ai-powered-trip-planner
