@@ -16,6 +16,6 @@ const config={
 
 export const GetPlacedetails=(data)=>axios.post(BASE_URL,data,config);
 
-export const PHOTO_REF_URL='https://places.googleapis.com/v1/{NAME}/media?maxHeightPx=1200&maxWidthPx=1200&key=AIzaSyBcPqWR1bvG_myRbut5BXx0xtjCYifBseQ'
+export const PHOTO_REF_URL=`https://places.googleapis.com/v1/{NAME}/media?maxHeightPx=1200&maxWidthPx=1200&key=AIzaSyBcPqWR1bvG_myRbut5BXx0xtjCYifBseQ`
 
 

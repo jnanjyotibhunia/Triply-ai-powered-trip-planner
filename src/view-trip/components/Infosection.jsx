@@ -33,7 +33,9 @@ function Infosection({ trip }) {
       <img
         src={picurl}
         alt="travelpic.jpg"
+        referrerPolicy="no-referrer"
         className="h-[330px] w-200 object-cover rounded-xl shadow-sm"
+        alt="infopic.jpg"
       ></img>
       <div className="flex justify-between items-center">
         <div className="my-5 flex flex-col gap-2">
