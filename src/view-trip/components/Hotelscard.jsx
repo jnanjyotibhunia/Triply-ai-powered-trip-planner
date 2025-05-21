@@ -31,9 +31,9 @@ function Hotelscard({ hotel }) {
     <Link
       to={
         "https://www.google.com/maps/search/?api=1&query=" +
-        hotel?.HotelName +
+        hotel?.hotelName +
         "," +
-        hotel?.HotelAddress
+        hotel?.hotelAddress
       }
       target="_blank"
     >
