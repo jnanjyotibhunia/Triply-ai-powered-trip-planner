@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { PHOTO_REF_URL } from "@/service/Globalapi";
 import { GetPlacedetails } from "@/service/Globalapi";
+import { Button } from "@/components/ui/button";
 
 function Hotelscard({ hotel }) {
   const [picurl, setpicurl] = useState();
@@ -52,6 +53,17 @@ function Hotelscard({ hotel }) {
           <h2 className="text-sm">💰{hotel.price.replace("from ", "")}</h2>
           <h2 className="text-sm">⭐{hotel.rating.replace("stars", "")}</h2>
         </div>
+        <a
+          href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(
+            hotel?.hotelName + " " + hotel?.hotelAddress
+          )}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className="mt-2 w-full bg-indigo-600 text-white py-1 px-4 rounded-lg hover:bg-indigo-700 transition cursor-pointer">
+            Book Now
+          </Button>
+        </a>
       </div>
     </Link>
   );
