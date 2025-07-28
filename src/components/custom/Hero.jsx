@@ -19,6 +19,9 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import { Link } from 'react-router-dom'
+import { Marquee } from '../magicui/marquee'
+import { MarqueeDemo } from '../magicui/MarqueeDemo'
+
 
 function Hero() {
   return (
@@ -56,6 +59,8 @@ function Hero() {
 
       {/* Image shown below the video section */}
       <img src="./landing.png" alt="Landing" className="w-[600px] mt-2" />
+      <MarqueeDemo></MarqueeDemo>
+      <footer className='mt-8 p-5 font-medium bg-gray-200 w-full text-center'>Made by Jnanjyoti ❤️</footer>
     </div>
   )
 }
