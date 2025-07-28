@@ -38,7 +38,7 @@ const reviews = [
     body: "AI + travel = magic. Triply is now my go-to planner.",
     img: "https://avatar.vercel.sh/luca",
   },
-]
+];
 
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
@@ -53,7 +53,14 @@ const ReviewCard = ({ img, name, username, body }) => {
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <img
+          className="rounded-full"
+          width="32"
+          height="32"
+          alt=""
+          src={img}
+          referrerPolicy="no-referrer"
+        />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
